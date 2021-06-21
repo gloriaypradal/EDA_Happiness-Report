@@ -1,37 +1,39 @@
-## Welcome to GitHub Pages
+## EDA for the Happiness Report
 
-You can use the [editor on GitHub](https://github.com/gloriaypradal/EDA_Happiness-Report/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+The following project is one of my first most complete works on the Master's porgram, the goal of it is make a deep analysis on the happiness report data, distributuion of each variable, correlation, description of each varriable This was created with the goal to prepare the data for the EDA and to get insights to build future predicticve analysis of the Happiness Index for our contry and other features
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This analysis is helpful for goverment, small and big organizations that want to know what they can improve to make their population, workers, partners, etc. happier
 
 ### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Libraries to use
 
 ```markdown
-Syntax highlighted code block
+rom __future__ import print_function, division
 
-# Header 1
-## Header 2
-### Header 3
+import matplotlib.pyplot as plt
 
-- Bulleted
-- List
+import numpy as np
 
-1. Numbered
-2. List
+import random
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+import thinkstats2
+import thinkplot
+import scipy.stats
+import pandas as pd
+import csv
+import seaborn as sns
+import statsmodels.formula.api as smf
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/gloriaypradal/EDA_Happiness-Report/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### References
 
-### Support or Contact
+[](https://github.com/AllenDowney/ThinkStats2)
+[](https://worldhappiness.report/)
+[](https://www.kaggle.com/unsdsn/world-happiness)
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### Author
+
+Gloria Moore
